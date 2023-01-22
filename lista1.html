@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>lista z zadaniami</title>
+	<link rel="stylesheet" type="text/css" href="lista1.css">
+</head>
+<body>
+	<header>
+<div class="menu">
+	<div><h5>Lista z Zadaniami</h5></div>
+</div>
+</header>
+<main>
+<table class="tab">
+<tr>
+	<th>Nazwa</th>
+	<th>data</th>
+	<th>progres</th>
+	<th>usuń</th>
+	<th>ukończone</th>
+</tr>
+<tr>
+	<th>jakasnazwa</th>
+	<th>jakasnazwa</th>
+	<th><input type ="submit" class="progres" value="klik"></th>
+	<th><input type ="submit"class="usun" value="usun"></th>
+	<th><input type ="submit" class="koniec" value="Wyślij"></th>
+	</tr>
+	<tr>
+	<th>jakasnazwa</th>
+	<th>jakasnazwa</th>
+	<th><input type ="submit" class="progres" value="klik"></th>
+	<th><input type ="submit" class="usun" value="usun"></th>
+	<th><input type ="submit" class="koniec" value="Wyślij"></th>
+	</tr>
+	<tr>
+	<th>jakasnazwa</th>
+	<th>jakasnazwa</th>
+	<th><input type ="submit" class="progres" value="klik"></th>
+	<th><input type ="submit" class="usun" value="usun"></th>
+	<th><input type ="submit" class="koniec" value="Wyślij"></th>
+	</tr>
+
+	<form method="POST" action="dodawanie.php">
+		<legend>stwórz nowy rekord</legend>
+		<label>Nazwa zadania</label><input type="text" name="" required="" maxlength="30">
+		<label>Data</label><input type="date" name="" required="">
+		<label>opis</label><input type="text" name="" required="">
+		<input type="submit" id="dod" value="dodaj">
+		<input type="reset" id="usun" value="usuń">
+		<br>
+	</form>
+	<form action="lista2.html">
+<input type="submit" value="lista ukończonych zadań">
+<br>
+</main>
+<footer>
+	<div>copyrighted by Artur</div>
+</footer>
+</body>
+</html>
